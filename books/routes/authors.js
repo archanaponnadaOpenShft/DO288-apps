@@ -4,7 +4,7 @@ const router = express.Router();
 
 const authors = require('../data/authors');
 
-express = require('express');
+//const t = 'test';
 
 /*GET users listing. */
 router.get('/', (req, res) => {
