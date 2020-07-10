@@ -6,7 +6,7 @@ const authors = require('../data/authors');
 
 // ct  t = 'test';
 
-/*GET users listing. */
+/* GET ut yuers listing. */
 router.get('/', (req, res) => {
   res.json(authors);
 });
